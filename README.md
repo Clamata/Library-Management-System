@@ -10,11 +10,14 @@ This program simulates a library management system, showcasing various Object-Or
 5. Composition:  The Library class is composed of multiple Catalog objects, and each Catalog contains multiple Position objects (which could be books or magazines).
 6. Interfaces: Implemented interfaces to define behaviors that can be shared across multiple classes.
 
+## Utilities
+
 The program allows:
+
 1. Adding new books, magazines, and authors to the system.
-2. Displaying information about all positions in the library (books, magazines).
-3. Searching for items based on their ID or title.
-4. Adding librarians to the library and displaying their information.
+2. Registering librarians and displaying their information.
+3. Displaying information about all positions in the library (books, magazines).
+4. Searching for positions by their ID or title.
 
 ## Directories and Files
 <details open>
