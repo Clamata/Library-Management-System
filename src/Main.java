@@ -49,7 +49,7 @@ public class Main {
 
         System.out.println("\n=== Search for items by ID ===");
 
-        // Search for items by ID
+        // Search for positions by ID
         List<Position> positionsById = library.findPositionsById(20); // Search by ID 20 (should find "Nauka i Technika")
         if (positionsById != null) {
             for (Position position : positionsById) {
@@ -61,7 +61,7 @@ public class Main {
 
         System.out.println("\n=== Search for items by Title ===");
 
-        // Search for items by title
+        // Search for positions by title
         List<Position> positionsByTitle = library.findPositionsByTitle("Wiedźmin"); // Search by title "Wiedźmin"
         if (positionsByTitle != null) {
             for (Position position : positionsByTitle) {
