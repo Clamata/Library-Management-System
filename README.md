@@ -1,2 +1,52 @@
 # Library-Management-System
-My understanding and implementation of Object-Oriented Programming principles through code examples.
+
+## About
+
+This program simulates a library management system, showcasing various Object-Oriented Programming (OOP) concepts:
+1. Inheritance: Used to create specialized classes (Autor, Book, Magazine) from base classes (Person, Position).
+2. Polymorphism: Applied when the same method printInfo() behaves differently depending on the object type (Book vs. Magazine), even though they are treated as Position.
+3. Abstraction: Achieved by making Position an abstract class and leaving certain methods unimplemented, the code forces the subclasses to provide specific implementations.
+4. Encapsulation: Ensured by restricting direct access to the internal state of the classes. Instead of accessing the fields directly, external code uses getter and setter methods.
+5. Composition:  The Library class is composed of multiple Catalog objects, and each Catalog contains multiple Position objects (which could be books or magazines).
+6. Interfaces: Implemented interfaces to define behaviors that can be shared across multiple classes.
+
+The program allows:
+1. Adding new books, magazines, and authors to the system.
+2. Displaying information about all positions in the library (books, magazines).
+3. Searching for items based on their ID or title.
+4. Adding librarians to the library and displaying their information.
+
+## Directories and Files
+<details open>
+   <summary><b>Project's Tree</b></summary>
+   
+``` bash
+- |   .gitignore     # Specifies files and directories to ignore in Git version control 
+- |   LICENSE        # Contains the licensing terms for the project 
+- |   README.md      # Provides an overview and instructions for the project
+  |
+  └───src            # Main source code directory
+        Author.java
+        Book.java
+        Catalog.java
+        IManageLibrarians.java
+        IManagePositions.java
+        Librarian.java
+        Library.java
+        Magazine.java
+        Main.java
+        Person.java
+        Position.jav
+ ```
+
+</details>
+
+## Installation
+
+1. Create a new project using your preferred IDE.
+2. Copy the contents of the /src folder into the src directory of your project.
+3. Execute the main class of your choice.
+
+## License
+
+Refer to the LICENSE file located in the root directory of the project for detailed information.
