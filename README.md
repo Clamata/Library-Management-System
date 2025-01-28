@@ -1,6 +1,6 @@
-# Library-Management-System
+# 📚 Library-Management-System
 
-## About
+## ✨ About
 
 This program simulates a library management system, showcasing various Object-Oriented Programming (OOP) concepts:
 1. Inheritance: Used to create specialized classes (Autor, Book, Magazine) from base classes (Person, Position).
@@ -10,7 +10,7 @@ This program simulates a library management system, showcasing various Object-Or
 5. Composition:  The Library class is composed of multiple Catalog objects, and each Catalog contains multiple Position objects (which could be books or magazines).
 6. Interfaces: Implemented interfaces to define behaviors that can be shared across multiple classes.
 
-## Utilities
+## 🔧 Features
 
 The program allows:
 
@@ -19,37 +19,49 @@ The program allows:
 3. Displaying information about all positions in the library (books, magazines).
 4. Searching for positions by their ID or title.
 
-## Directories and Files
+## 📂 Directories and Files
 <details open>
    <summary><b>Project's Tree</b></summary>
    
 ``` bash
+  .
 - |   .gitignore     # Specifies files and directories to ignore in Git version control 
 - |   LICENSE        # Contains the licensing terms for the project 
 - |   README.md      # Provides an overview and instructions for the project
   |
   └───src            # Main source code directory
-        Author.java
-        Book.java
-        Catalog.java
-        IManageLibrarians.java
-        IManagePositions.java
-        Librarian.java
-        Library.java
-        Magazine.java
-        Main.java
-        Person.java
-        Position.jav
+    | - Author.java
+    | - Book.java
+    | - Catalog.java
+    | - IManageLibrarians.java
+    | - IManagePositions.java
+    | - Librarian.java
+    | - Library.java
+    | - Magazine.java
+    | - Main.java
+    | - Person.java
+    | - Position.java
  ```
 
 </details>
 
-## Installation
+## 🚀 Getting Started
 
-1. Create a new project using your preferred IDE.
-2. Copy the contents of the /src folder into the src directory of your project.
+1.  **Clone the Repository**:
+    
+    ```
+    git clone https://github.com/Clamata/Java-Testing.git
+    ```
+2.  **Set Up the Project**:
+    
+    -   Open your preferred IDE.
+        
+    -   Copy the contents of the src folder into the source directory of your project.
+
 3. Execute the main class of your choice.
 
-## License
+----------
 
-Refer to the LICENSE file located in the root directory of the project for detailed information.
+## 📜 License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as permitted under the terms of this license.
